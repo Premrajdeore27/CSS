@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 5px solid greenyellow;
+            background-repeat: no-repeat;
+            background-image: url(./imgaes/wp2055818.jpg);
+            background-size: 1500px;
+            background-repeat: repeat;
+        }
+
+        .flexbox-item {
+            justify-content: flex-end;
+            /* border: 8px dashed red; */
+            display: inline-block;
+
+        }
+        .second2{
+            border: 8px dashed red;
+            width: 400px;
+            height: 800px;
+            margin: 315px;
+            margin-bottom: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: white;
+            color: green
+        }
+        .circle-sq{
+            border: 5px solid white;
+            width: 200px;
+            height: 100px;
+            color:black;
+            text-decoration: underline;
+            font-size: x-large;
+
+        }
+        .second1{
+            border: 8px solid gray;
+            position:relative;
+            top: 20px;
+            left: 35px;
+            width: 400px;
+            height: 420px;
+            border-radius:360%;
+            margin: 10px;
+            text-decoration: underline;
+            align-items: center;
+            text-align: center;
+            color: black;
+           font-size: x-large;
+            background-color: rgb(195, 230, 252);
+        }
+
+        .box{
+            border: 8px solid red;
+            border-radius: 15%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: inline-block;
+            color: papayawhip;
+            font-size :xx-large;
+        }
+        .box1{
+            margin-right:-130px; 
+            margin-left:20px; 
+            width: 420px;
+            height: 150px;
+            top: 7px;
+            position: relative;
+            text-align: center;
+            text-decoration-color: white;
+            background-color: black;
+        }
+        .box3{
+            width: 540px;
+            height: 90px;
+            border-radius: 120px;
+            margin-right:100px;
+            text-align:center;
+            align-items: center;
+            background-color: black;
+            position: relative;
+            right: 25px;
+            bottom: 33px;
+        }
+        .box2{
+            width: 420px;
+            margin: 20px;
+            height: 150px;
+            margin-left: 30px;
+            background-color: black;
+            text-align:center;
+            align-items: center;
+        }
+        .Menu{
+           /* border: 8px solid red;
+            width: 450px;
+            height: 40px;
+            border-radius: 100px;
+            font-size: 70%;
+            align-content: center;
+            margin-left: 500px;
+            padding-top: 10px;
+            padding-bottom: 50px;
+            background-color: black;
+            text-decoration-color: white;*/
+            margin-left: 100px;
+            border-bottom: 1px outset grey;
+             height: 150px;
+            text-align: center;
+        }
+        .parent{
+            border:4px solid black;
+            display: inline-block;
+            width: 1490px;
+            height: 1000px;
+            margin-top: 90px;
+            padding-top: 60px;
+        }
+        .subBox{
+            border: 2px solid black;
+            display: inline-block;
+            background-color: rgb(205, 237, 248);
+            border-radius: 40px;
+            margin-top: 60px;
+            margin: 34px;
+            width: 420px;
+            height: 350px;
+
+            
+        }
+        .line{
+            position: absolute;
+            left: 18px;
+            width: 363px;
+            top: 115px;
+            border: 1px solid gray;
+        }
+        .line1{
+            position: absolute;
+            left: 16px;
+            width: 365px;
+            top: 266px;
+            border: 1px solid gray;
+        }
+        #form-title{
+            font-size: xx-large;
+            color: red;
+            margin: 25px;
+        }
+        .font{
+            font-size: x-large;
+            color: red;
+        }
+        .item-titles{
+            font-size: 39px;
+            line-height: 32px;
+            margin: auto;
+            color: rgb(57, 57, 223);
+            padding: 30px;
+        }
+        .item-title{
+            font-size: 42px;
+            color: rgb(57, 57, 223);
+            line-height: 32px;
+            /* margin: 65px; */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 35px 30px 0 30px;
+            padding: 30px;
+        }
+        .menu-hr{
+            border: 1px solid gray;
+            /* top: 150px; */
+            margin-top: 30px;
+        }
+        ul{
+            color: rgb(40, 9, 68);
+            margin: 10px;
+            line-height: 28px; 
+            font-size: 25px;
+        }
+
+        .Menu-text {
+            border: 10px solid red;
+            border-radius: 50px;
+            background-color: black;
+            color: white;
+            /* font-style: italic; */
+            width: 600px;
+            /* text-align: center; */
+            font-size: 50px;
+            padding: 0px 0px;
+            margin: 30px 350px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        label{
+          color:red;
+          font-size: 20px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box box1"><br> Welcome To Dhaba </br> You Get Quality Food
+    </div>
+    <div class="box box3"><br>How Many Review contact us</div>
+    <div class="box box2"><i>Email:Store@gmail.com<br>If you find any complain<br>Contact on-94566*****</i></div>
+
+    <div class="flexbox-item second1"><br><br>EXICITING OFFERS<br><br><hr class="line"><br><br><div><u>**GET OUR SPECIAL THALI FOR<br>ONLY RS-100 ONLY ON MONDAY**</u><br><br><hr class="line1"><br><br>PLZ RATE US OUT OF 5</div></div>
+    <div class="flexbox-item second2">
+        <p id="form-title">PLEASE REGISTER HERE</p>
+        <hr class="
+            border-top: 1px solid blue;
+            margin-left: 5px;
+            margin-right: 5px;
+          ">
+        <div>
+    <form action style="text-align: center">
+        <br>
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="fname" placeholder="enter your first name" id="fname">
+        <br><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" placeholder="enter your last name" id="lname">
+        <br><br><br>
+        <label for="age">Your age:</label><br>
+        <input type="number" name="age" placeholder="enter your age here" id="age">
+        <br><br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" placeholder="myEmail" id="email">
+        <br><br>
+        <label for="dob">Date of birth:</label>
+        <br><br>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="person">Are you more than one person?</label>
+        <br>
+        <input type="checkbox" name="person" id="person"><br>
+        <br>
+        <label for="cold">Do you have cough or cold?</label><br>
+        <input type="checkbox" name="cold" id="cold"><br>
+        <br>
+        <label for="click">click here</label><br>
+        <input type="button" name="click" value="submit here"><br>
+        <br>
+        <label for="reset">Reset</label><br>
+        <input type="button" name="reset" value="Reset">
+      </form>
+    </div>
+    </div>
+    <div class="menu">
+
+    
+    <div class="Menu"><p class="Menu-text">Menu</p></div>
+    <div class="parent">
+        <div class="subBox">
+            <span class="item-title">Starters</span><br>
+            <hr class="menu-hr">
+            <ul>
+                <li>Paneer Tikka</li>
+                <li>Tomato Soup</li>
+                <li>Afgani Chaap</li>
+                <li>Veg Raita</li>
+                <li>Gol gappa</li>
+                <li>Tikki</li>
+                <li>Fried Rice</li>
+            </ul>
+        </div>
+        <div class="subBox">
+            <span class="item-title">South Indian</span><br>
+            <hr class="menu-hr">
+            <ul>
+                <li>Masala Dosa</li>
+                <li>Idli Sambhar</li>
+                <li>Mix Veg. Uttapam</li>
+                <li>Onion Dosa</li>
+                <li>Vada Sambhar</li>
+                <li>Paper Plain Dosa</li>
+                <li>Tomato Uttapam</li>
+            </ul>
+        </div>
+        <div class="subBox">
+            <span class="item-title">Indian Kitchen</span><br>
+            <hr class="menu-hr">       
+        <ul>
+            <li>Shahi Paneer</li>
+            <li>Kadhai Paneer</li>
+            <li>Aloo Ghobi</li>
+            <li>Dal Makhni</li>
+            <li>Poori Sabji</li>
+            <li>Malai Kofta</li>
+            <li>S1tuff Capsicum</li>
+        </ul>
+        </div>
+        <div class="subBox">
+            <span class="item-title">Rice &amp; Salad</span><br>
+            <hr class="menu-hr">
+            <ul>
+                <li>Plain rice</li>
+                <li>Jeera rice</li>
+                <li>Fried rice</li>
+                <li>Veg. Pulao</li>
+                <li>Veg. Biryani</li>
+                <li>Cheese Fried rice</li>
+                <li>Masala Salad</li>
+              </ul>
+        </div>
+        <div class="subBox">
+            <span class="item-title">Tandoori Bread</span><br>
+            <hr class="menu-hr">
+            <ul>
+                <li>Butter roti</li>
+                <li>Missi roti</li>
+                <li>Onion Parantha</li>
+                <li>Lacha Parantha</li>
+                <li>Butter Naan</li>
+                <li>Paneer Parantha</li>
+                <li>Stuff parantha</li>
+              </ul>
+        </div>
+        <div class="subBox">
+            <span class="item-titles">Beverages and Other</span><br>
+            <hr class="menu-hr">
+            <ul>
+                <li>Cold Coffee</li>
+                <li>Colddrinks</li>
+                <li>Badam Milk</li>
+                <li>Mineral Water</li>
+                <li>Ice cream</li>
+                <li>Cake</li>
+                <li>Gajar Halwa</li>
+              </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
